@@ -44,17 +44,19 @@ File Structure:-
 ----------------------------------
 Schematic:-
 
+Heres my schematic I forgot to organise :(
+
 <img width="1918" height="1078" alt="Screenshot 2026-06-10 171732" src="https://github.com/user-attachments/assets/dd743aaf-9dbd-44a6-9534-21997aae61de" />
 
 
 PCB:-
-
+Here is my pcb I imported the silkscreen from pinterest then used inbuilt image converter to copy it and paste it on the pcb
 <img width="1918" height="1078" alt="Screenshot 2026-06-10 171314" src="https://github.com/user-attachments/assets/d0124367-176a-4c26-a277-385636e77f26" />
 <img width="1918" height="1078" alt="Screenshot 2026-06-10 181058" src="https://github.com/user-attachments/assets/9ad145b0-6f9f-4df6-a94d-e99155c95f49" />
 
 
 Case:-
-
+here is my case, I was aiming for one cyberpunkish case and made it its screwable from the corners(m3 screws)
 <img width="1918" height="1031" alt="Screenshot 2026-06-10 184015" src="https://github.com/user-attachments/assets/1b725197-a6c8-4eb8-8dbc-55cf225d29a7" />
 
 
@@ -75,7 +77,7 @@ BOM:-
 
 -1x Resistor (RGB data line)
 
--6x 100nF Capacitors
+-5x 100nF Capacitors and one μF Capacitor in the pcb
 
 -1x Case (3 printed parts: bottom tray, spacer, switch plate)
 
