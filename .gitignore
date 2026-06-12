@@ -6,7 +6,7 @@
 *.log
 # Tool-specific backups
 fp-info-cache
-.history/
+.history
 *-backups/
 _autosave-*
 
