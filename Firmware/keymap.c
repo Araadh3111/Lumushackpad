@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include <stdio.h>
 
 // Custom keycodes for app-launcher macros and the OLED mode switch
 enum custom_keycodes {

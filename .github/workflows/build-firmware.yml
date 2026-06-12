@@ -1,0 +1,33 @@
+name: Build firmware
+
+on:
+  push:
+    paths:
+      - "Firmware/**"
+      - ".github/workflows/build-firmware.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/qmk/qmk_cli
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QMK
+        run: qmk setup -y --home /qmk_firmware qmk/qmk_firmware
+
+      - name: Copy keyboard files into QMK
+        run: |
+          mkdir -p /qmk_firmware/keyboards/lumuspad/keymaps/default
+          cp Firmware/keyboard.json Firmware/config.h Firmware/rules.mk /qmk_firmware/keyboards/lumuspad/
+          cp Firmware/keymap.c /qmk_firmware/keyboards/lumuspad/keymaps/default/
+
+      - name: Compile
+        run: qmk compile -kb lumuspad -km default
+
+      - name: Upload .uf2
+        uses: actions/upload-artifact@v4
+        with:
+          name: lumuspad_firmware
+          path: /qmk_firmware/lumuspad_default.uf2
