@@ -44,15 +44,19 @@ File Structure:-
 ----------------------------------
 Schematic:-
 
-(paste schematic screenshot here)
+<img width="1918" height="1078" alt="Screenshot 2026-06-10 171732" src="https://github.com/user-attachments/assets/dd743aaf-9dbd-44a6-9534-21997aae61de" />
+
 
 PCB:-
 
-(paste PCB screenshot here)
+<img width="1918" height="1078" alt="Screenshot 2026-06-10 171314" src="https://github.com/user-attachments/assets/d0124367-176a-4c26-a277-385636e77f26" />
+<img width="1918" height="1078" alt="Screenshot 2026-06-10 181058" src="https://github.com/user-attachments/assets/9ad145b0-6f9f-4df6-a94d-e99155c95f49" />
+
 
 Case:-
 
-(paste case render here)
+<img width="1918" height="1031" alt="Screenshot 2026-06-10 184015" src="https://github.com/user-attachments/assets/1b725197-a6c8-4eb8-8dbc-55cf225d29a7" />
+
 
 ----------------------------------
 BOM:-
@@ -84,3 +88,4 @@ Compiled automatically by GitHub Actions on every push.
 Grab the latest lumuspad_firmware artifact from the Actions tab,
 hold the BOOT button on the XIAO while plugging in USB,
 and drag the .uf2 onto the RPI-RP2 drive.
+----------------------------------
