@@ -1,0 +1,59 @@
+{
+    "manufacturer": "Araadh",
+    "keyboard_name": "lumuspad",
+    "maintainer": "Araadh3111",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x4C50",
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true,
+        "encoder": true,
+        "oled": true,
+        "rgblight": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP26", "GP27", "GP28", "GP29", "GP4", "GP2"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP0", "pin_b": "GP1", "resolution": 4}
+        ]
+    },
+    "ws2812": {
+        "pin": "GP3",
+        "driver": "vendor"
+    },
+    "rgblight": {
+        "led_count": 5,
+        "sleep": true,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "knight": true
+        },
+        "default": {
+            "animation": "rainbow_swirl"
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0}
+            ]
+        }
+    }
+}

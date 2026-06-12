@@ -6,3 +6,9 @@
 *.log
 # Tool-specific backups
 fp-info-cache
+.history/
+*-backups/
+_autosave-*
+
+# Not project files (162 MB installer, exceeds GitHub's limit)
+CAD/Slack.msix

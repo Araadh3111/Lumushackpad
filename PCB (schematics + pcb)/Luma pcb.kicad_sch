@@ -1865,6 +1865,12 @@
 		(uuid "1240e595-80eb-4f61-80b6-9f577736def2")
 	)
 	(junction
+		(at 208.026 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b1e4190-a95a-4fbc-8bd8-a2fceea0dea2")
+	)
+	(junction
 		(at 176.784 111.252)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1875,12 +1881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28db4f8e-11d5-4e30-ac43-14c9b8423b2c")
-	)
-	(junction
-		(at 208.026 45.974)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2913e8f5-c402-4682-bcd2-1aac8005b7f7")
 	)
 	(junction
 		(at 179.578 134.874)
@@ -2069,12 +2069,6 @@
 		(uuid "d6f453b1-d9da-45ce-874a-f34cd554f4c6")
 	)
 	(junction
-		(at 220.726 38.354)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4f20d3e-3fb6-4dd4-99af-0dad72ffe33a")
-	)
-	(junction
 		(at 158.496 92.456)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2091,6 +2085,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f490db4e-1894-45dd-a85f-4d78738a384a")
+	)
+	(junction
+		(at 220.726 37.338)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4becfaa-b764-41a9-aab8-5e905e8edce9")
 	)
 	(junction
 		(at 161.798 76.708)
@@ -2606,6 +2606,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.726 37.338) (xy 220.726 38.354)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7377c5-fbf6-41af-a44d-10eaf6cccacd")
+	)
+	(wire
+		(pts
 			(xy 149.86 118.364) (xy 149.86 147.066)
 		)
 		(stroke
@@ -2666,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.646 38.354) (xy 220.726 38.354)
+			(xy 215.138 37.338) (xy 220.726 37.338)
 		)
 		(stroke
 			(width 0)
@@ -3506,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.518 44.958) (xy 208.026 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fea8bd-8bc0-43af-97b7-5982e2559451")
+	)
+	(wire
+		(pts
 			(xy 169.926 84.582) (xy 169.926 76.708)
 		)
 		(stroke
@@ -3616,6 +3636,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.138 52.578) (xy 215.646 53.594)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b309c78b-d771-4d45-afe7-1bdbd66b1dc8")
+	)
+	(wire
+		(pts
 			(xy 155.956 95.504) (xy 155.956 93.98)
 		)
 		(stroke
@@ -3626,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.726 22.86) (xy 220.726 38.354)
+			(xy 220.726 22.86) (xy 220.726 37.338)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.824 45.974) (xy 223.266 45.974)
+			(xy 242.824 44.958) (xy 222.758 44.958)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.824 39.878) (xy 242.824 45.974)
+			(xy 242.824 39.878) (xy 242.824 44.958)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6812MINI-E"
 			(at 156.718 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 176.784 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6812MINI-E"
 			(at 280.924 47.4278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 271.78 58.928 0)
 			(hide yes)
 			(show_name no)
@@ -5023,7 +5053,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6812MINI-E"
 			(at 264.16 34.9818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5033,7 +5063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5091,7 +5121,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 215.646 45.974 0)
+		(at 215.138 44.958 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5101,7 +5131,7 @@
 		(dnp no)
 		(uuid "96e10bb0-3993-4eff-8e13-1beb5576775b")
 		(property "Reference" "D4"
-			(at 250.444 42.6018 0)
+			(at 249.936 41.5858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5110,8 +5140,8 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 226.06 42.0938 0)
+		(property "Value" "SK6812MINI-E"
+			(at 225.552 41.0778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5120,8 +5150,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 216.916 53.594 0)
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
+			(at 216.408 52.578 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5163,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 218.186 55.499 0)
+			(at 217.678 54.483 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,7 +5175,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 215.646 45.974 0)
+			(at 215.138 44.958 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6812MINI-E"
 			(at 117.348 55.2606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "footprints:SK6812MINI-E_fixed"
 			(at 105.664 50.546 0)
 			(hide yes)
 			(show_name no)
