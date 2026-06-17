@@ -83,6 +83,8 @@ BOM:-
 
 No diodes needed — every switch has its own pin (direct wiring).
 
++ pcb printing fund
+
 ----------------------------------
 Firmware:-
 
