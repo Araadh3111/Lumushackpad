@@ -59,6 +59,9 @@ Case:-
 here is my case, I was aiming for one cyberpunkish case and made it its screwable from the corners(m3 screws)
 <img width="1918" height="1031" alt="Screenshot 2026-06-10 184015" src="https://github.com/user-attachments/assets/1b725197-a6c8-4eb8-8dbc-55cf225d29a7" />
 
+Assembled:-
+here is the assembled file!
+<img width="1191" height="881" alt="image" src="https://github.com/user-attachments/assets/30720314-2865-4ba8-b271-b76198c6f535" />
 
 ----------------------------------
 BOM:-
