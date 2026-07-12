@@ -52,7 +52,11 @@ Heres my schematic I forgot to organise :(
 PCB:-
 Here is my pcb I imported the silkscreen from pinterest then used inbuilt image converter to copy it and paste it on the pcb
 <img width="1918" height="1078" alt="Screenshot 2026-06-10 171314" src="https://github.com/user-attachments/assets/d0124367-176a-4c26-a277-385636e77f26" />
+PS:- the led dioded do not intersect with the switch as they are inverted and on the other side! more can be seen from the next two screenshots
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6914d570-de36-4b3b-97ca-eef4bb36b984" />
+
+<img width="1332" height="776" alt="image" src="https://github.com/user-attachments/assets/866aa77f-ea3b-4ab3-8d53-0f94c9a1b925" />
+<img width="1581" height="890" alt="image" src="https://github.com/user-attachments/assets/beb09682-8f7f-449b-abb0-cd605897cae6" />
 
 
 Case:-
