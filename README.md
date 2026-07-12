@@ -63,6 +63,9 @@ Assembled:-
 here is the assembled file! (ps: the pins will be bended!)
 <img width="1191" height="881" alt="image" src="https://github.com/user-attachments/assets/30720314-2865-4ba8-b271-b76198c6f535" />
 
+---------------------------------
+Ai usage:-
+I used claude to help me make the qmk firmware! rest build was done by me
 ----------------------------------
 BOM:-
 
